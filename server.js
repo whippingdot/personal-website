@@ -1,7 +1,7 @@
 const express = require("express");
 const app = express();
 
-console.log(__dirname);
+// console.log(__dirname);
 
 app.get("/", (req, res) => {
   console.log("A user connected!");
